@@ -1,16 +1,23 @@
-## Hi there 👋
+# 👋 Hi, I'm Akhilesh Kumar Singh
 
-<!--
-**SINGHL25/SINGHL25** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+💻 Aspiring Data Scientist | Python & ML Enthusiast | Power BI Analyst | C++/Java Coder | Open to Opportunities
 
-Here are some ideas to get you started:
+## 🌱 Currently Learning:
+- Python, NumPy, Pandas, Matplotlib
+- Machine Learning (Scikit-learn)
+- Deep Learning (TensorFlow, CNN)
+- Power BI Dashboards
+- Linux Bash Scripting
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 📌 Projects:
+- [EDA on Titanic Dataset](https://github.com/SINGHL25/eda-titanic)
+- [House Price Prediction - ML](https://github.com/SINGHL25/house-price-ml)
+- [MNIST Digit Classifier - DL](https://github.com/SINGHL25/mnist-cnn)
+- [My Portfolio Website](https://SINGHL25.github.io/portfolio)
+
+## 📈 GitHub Stats:
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=SINGHL25&show_icons=true&theme=radical)
+
+## 🔗 Connect With Me:
+[LinkedIn](https://www.linkedin.com/in/akhilesh-kumar-singh-23115836)  
+[Email Me](mailto:akhi.singh1989@gmail.com)
