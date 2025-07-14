@@ -13,7 +13,7 @@
 - [EDA on Titanic Dataset](https://github.com/SINGHL25/eda-titanic)
 - [House Price Prediction - ML](https://github.com/SINGHL25/house-price-ml)
 - [MNIST Digit Classifier - DL](https://github.com/SINGHL25/mnist-cnn)
-- [My Portfolio Website](https://SINGHL25.github.io/portfolio)
+- [[My Portfolio Website](https://SINGHL25.github.io/portfolio)](https://singhl25.github.io/Akhilesh-portfolio-site/)
 
 ## 📈 GitHub Stats:
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=SINGHL25&show_icons=true&theme=radical)
