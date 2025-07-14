@@ -1,5 +1,3 @@
-# 👋 Hi, I'm Akhilesh Kumar Singh
-
 <h1 align="center">👋 Hi, I'm Akhilesh Kumar Singh</h1>
 <p align="center">
   💻 Aspiring Data Scientist | Python & ML Enthusiast | Power BI Analyst | C++/Java Developer<br>
@@ -78,6 +76,8 @@
 ---
 
 _✨“Code with a purpose. Learn with passion.” — Akhilesh_
+
+
 
 
 
