@@ -2,6 +2,8 @@
 <p align="center">
   💻 Aspiring Data Scientist | Python & ML Enthusiast | Power BI Analyst | C++/Java Developer<br>
   🚀 Open to Freelance, Remote & Full-Time Opportunities
+  <img width="688" height="682" alt="image" src="https://github.com/user-attachments/assets/add14400-6289-46d5-b51e-a2cb1a7a4aaa" />
+
 </p>
 
 ---
