@@ -74,6 +74,8 @@
 - 🤖 Fine-tune ML models for real-time applications
 - 🚀 Launch a personal blog with AI + DevOps tutorials
 - 🌍 Contribute to Open Source (especially ITS / transport analytics)
+- <img width="640" height="677" alt="image" src="https://github.com/user-attachments/assets/a02ecb3a-92e1-4358-908a-32da234f3a74" />
+
 
 ---
 
