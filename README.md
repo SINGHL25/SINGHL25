@@ -10,6 +10,8 @@
 
 ### 🌱 Currently Learning & Practicing
 
+<img width="642" height="678" alt="image" src="https://github.com/user-attachments/assets/e47bca6f-b1f4-40e8-b7e9-54576a44244f" />
+
 - 🐍 **Python** for Data Science (NumPy, Pandas, Matplotlib)
 - 🧠 **Machine Learning** with Scikit-learn
 - 🔬 **Deep Learning** using TensorFlow, CNN
