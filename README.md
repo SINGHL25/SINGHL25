@@ -23,6 +23,9 @@
 
 ### 🛠️ Tech Stack
 
+<img width="2048" height="2048" alt="Gemini_Generated_Image_1ocff71ocff71ocf" src="https://github.com/user-attachments/assets/56d371b0-0a57-468a-aef2-0cf65432d27b" />
+
+
 ![Python](https://img.shields.io/badge/-Python-333?style=flat&logo=python)
 ![Scikit-learn](https://img.shields.io/badge/-ScikitLearn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/-TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white)
@@ -35,6 +38,9 @@
 ---
 
 ### 🧪 Featured Projects
+
+<img width="2048" height="2048" alt="Gemini_Generated_Image_ymalkiymalkiymal" src="https://github.com/user-attachments/assets/a463d11d-3d41-473f-9f54-1b973d21c51a" />
+
 
 | Project | Description | Tech Stack | Demo / Code |
 |--------|-------------|------------|-------------|
@@ -57,6 +63,8 @@
 ---
 
 ### 🌐 Portfolio Website
+<img width="2048" height="2048" alt="Gemini_Generated_Image_u8lq69u8lq69u8lq" src="https://github.com/user-attachments/assets/256096e8-aa5d-41e3-a43d-ca391b09dd71" />
+
 
 🔗 [**Akhilesh Portfolio Website (GitHub Pages)**](https://singhl25.github.io/Akhilesh-portfolio-site/)
 
