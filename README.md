@@ -1,4 +1,4 @@
-[PROFILE_README.md](https://github.com/user-attachments/files/29932908/PROFILE_README.md)
+(https://github.com/user-attachments/files/29932908/PROFILE_README.md)
 👋 Hi, I'm Akhilesh Kumar Singh
 
 ITS Engineer @ Kapsch • Building ML‑powered Smart Mobility & Tolling systems • Python | TensorFlow | Power BI
