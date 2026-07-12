@@ -1,95 +1,85 @@
-<h1 align="center">👋 Hi, I'm Akhilesh Kumar Singh</h1>
-<p align="center">
-  💻 Aspiring Data Scientist | Python & ML Enthusiast | Power BI Analyst | C++/Java Developer<br>
-  🚀 Open to Freelance, Remote & Full-Time Opportunities
-  <img width="688" height="682" alt="image" src="https://github.com/user-attachments/assets/add14400-6289-46d5-b51e-a2cb1a7a4aaa" />
+👋 Hi, I'm Akhilesh Kumar Singh
 
-</p>
+ITS Engineer @ Kapsch • Building ML‑powered Smart Mobility & Tolling systems • Python | TensorFlow | Power BI
 
----
-
-### 🌱 Currently Learning & Practicing
-
-<img width="642" height="678" alt="image" src="https://github.com/user-attachments/assets/e47bca6f-b1f4-40e8-b7e9-54576a44244f" />
-
-- 🐍 **Python** for Data Science (NumPy, Pandas, Matplotlib)
-- 🧠 **Machine Learning** with Scikit-learn
-- 🔬 **Deep Learning** using TensorFlow, CNN
-- 📊 **Power BI** Dashboarding
-- 💻 **Linux Bash Scripting**
-- 🌐 **Flask / Streamlit** for Web Apps
-
----
-
-### 🛠️ Tech Stack
-
-<img width="2048" height="2048" alt="Gemini_Generated_Image_1ocff71ocff71ocf" src="https://github.com/user-attachments/assets/56d371b0-0a57-468a-aef2-0cf65432d27b" />
+📍 Brisbane, Australia · 📧 akhi.singh1989@gmail.com · LinkedIn · Kaggle · Topmate
 
 
-![Python](https://img.shields.io/badge/-Python-333?style=flat&logo=python)
-![Scikit-learn](https://img.shields.io/badge/-ScikitLearn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/-TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white)
-![Power BI](https://img.shields.io/badge/-PowerBI-F2C811?style=flat&logo=powerbi&logoColor=black)
-![Streamlit](https://img.shields.io/badge/-Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)
-![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github)
-![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker)
-![Linux](https://img.shields.io/badge/-Linux-FCC624?style=flat&logo=linux&logoColor=black)
-
----
-
-### 🧪 Featured Projects
-
-<img width="2048" height="2048" alt="Gemini_Generated_Image_ymalkiymalkiymal" src="https://github.com/user-attachments/assets/a463d11d-3d41-473f-9f54-1b973d21c51a" />
+🗂️ Repository Map — click a badge to filter
 
 
-| Project | Description | Tech Stack | Demo / Code |
-|--------|-------------|------------|-------------|
-| 🧊 **[EDA on Titanic Dataset](https://github.com/singhl25/EDA-on-Titanic-Dataset)** | Exploratory Data Analysis using Python | Python, Pandas, Matplotlib | ✅ |
-| 🏡 **[House Price Prediction](https://github.com/singhl25/house-price-ml)** | ML regression model to predict housing prices | Scikit-learn, Pandas, Matplotlib | ✅ |
-| 🔢 **[MNIST Digit Classifier](https://github.com/singhl25/MNIST-Digit-Classifier---DL)** | Deep Learning classifier for handwritten digits | TensorFlow, CNN | ✅ |
-| 📱 **[Face Nutrition App](https://github.com/singhl25/Face_nutrition_app)** | AI app to detect nutrient deficiencies from faces | Streamlit, CNN | Live |
-| 🚗 **[Vehicle Document Reminder](https://github.com/singhl25/vehicle_doc_reminder)** | Sends alerts for vehicle RC, PUC, insurance expiry | Flask, SQLite, Email | ✅ |
-| 🚌 **[Smart School Transport Monitor](https://github.com/singhl25/Smart-School-Transport-Monitor)** | Tracks school buses, routes, delays | Flask, Google Maps | ✅ |
-
----
-
-### 📈 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=singhl25&show_icons=true&theme=radical" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=singhl25&layout=compact&theme=radical" width="48%" />
-</p>
-
----
-
-### 🌐 Portfolio Website
-<img width="2048" height="2048" alt="Gemini_Generated_Image_u8lq69u8lq69u8lq" src="https://github.com/user-attachments/assets/256096e8-aa5d-41e3-a43d-ca391b09dd71" />
+My repos are organised into 8 colour‑coded tracks. Each badge below opens a live filtered view of that category.
 
 
-🔗 [**Akhilesh Portfolio Website (GitHub Pages)**](https://singhl25.github.io/Akhilesh-portfolio-site/)
 
----
+<p><a href="https://github.com/SINGHL25?tab=repositories&q=toll"><img src="https://img.shields.io/badge/ITS_%26_Tolling_Systems-1f6feb?style=for-the-badge" alt="ITS & Tolling Systems"/></a>
+<a href="https://github.com/SINGHL25?tab=repositories&q=traffic"><img src="https://img.shields.io/badge/Smart_Mobility_%26_Traffic-2da44e?style=for-the-badge" alt="Smart Mobility & Traffic"/></a>
+<a href="https://github.com/SINGHL25?tab=repositories&q=transformer"><img src="https://img.shields.io/badge/AI,_ML_%26_Deep_Learning-8250df?style=for-the-badge" alt="AI, ML & Deep Learning"/></a>
+<a href="https://github.com/SINGHL25?tab=repositories&q=trading"><img src="https://img.shields.io/badge/Algo_Trading_%26_Fintech-bf8700?style=for-the-badge" alt="Algo Trading & Fintech"/></a>
+<a href="https://github.com/SINGHL25?tab=repositories&q=dashboard"><img src="https://img.shields.io/badge/Data_%26_Dashboards-d4351c?style=for-the-badge" alt="Data & Dashboards"/></a>
+<a href="https://github.com/SINGHL25?tab=repositories&q=docker"><img src="https://img.shields.io/badge/DevOps,_Cloud_%26_APIs-0969da?style=for-the-badge" alt="DevOps, Cloud & APIs"/></a>
+<a href="https://github.com/SINGHL25?tab=repositories&q=app"><img src="https://img.shields.io/badge/Web_%26_Mobile_Apps-1a7f37?style=for-the-badge" alt="Web & Mobile Apps"/></a>
+<a href="https://github.com/SINGHL25?tab=repositories&q=playground"><img src="https://img.shields.io/badge/Learning_Playgrounds-6e7781?style=for-the-badge" alt="Learning Playgrounds"/></a></p>
 
-### 📫 Let's Connect
+🛣️ ITS & Tolling Systems  <img src='https://img.shields.io/badge/32+_repos-1f6feb' align='center'/>
 
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/akhilesh-singh-1989/)
-[![Email](https://img.shields.io/badge/-Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:akhi.singh1989@gmail.com)
-[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/singhl25)
+RepositoryWhat it doesStackTollMapFlutter-Android-iOS-Web-View tolling sites on a map (Folium, Leaflet, or Google Maps)-Works on mobile anDartSVD-Vehicle-Class-System-Learning-App-EVSVD Vehicle Class System — Learning App EVD · License Plate · Sequence Flows · DHTMLRSS-TOLL-SYSRSSHTMLVRX-Camera-System-SimulatorInteractive Tolling & Traffic Visualization Platform—
 
----
+<sub>→ See all ITS & Tolling Systems repos · or search topic:its-tolling</sub>
 
-### 🔭 Future Goals
+🚦 Smart Mobility & Traffic  <img src='https://img.shields.io/badge/10+_repos-2da44e' align='center'/>
 
-- 📦 Build and deploy Dockerized apps on Kubernetes
-- 🤖 Fine-tune ML models for real-time applications
-- 🚀 Launch a personal blog with AI + DevOps tutorials
-- 🌍 Contribute to Open Source (especially ITS / transport analytics)
-- <img width="640" height="677" alt="image" src="https://github.com/user-attachments/assets/a02ecb3a-92e1-4358-908a-32da234f3a74" />
+RepositoryWhat it doesStackGnss_drift_doctorGNSS Drift Doctor – Accuracy & Compliance TrackerPythonDLVP-Traffic-Monitoring-PlatformDLVP Traffic Monitoring PlatformHTMLMetro-City-Traffic-ControlTraffic Flow Optimization Dashboard—vehicle-passage-mlVehicle Passage Prediction ML AppPython
+
+<sub>→ See all Smart Mobility & Traffic repos · or search topic:smart-mobility</sub>
+
+🤖 AI, ML & Deep Learning  <img src='https://img.shields.io/badge/33+_repos-8250df' align='center'/>
+
+RepositoryWhat it doesStackDevops-learning-playgroundGitHub repo structure for learning Git, DevOps, CI/CD, and testing automation toPythonVuln_patch_dashboardStreamlit-ready setup with both Engineer and Management dashboardsPythonServer-compliance-dashboardcentralized Vulnerability & Patch Management web app (Python + Streamlit) that uPythonML-Playground-app(description coming)Python
+
+<sub>→ See all AI, ML & Deep Learning repos · or search topic:ai-ml</sub>
+
+📈 Algo Trading & Fintech  <img src='https://img.shields.io/badge/6+_repos-bf8700' align='center'/>
+
+RepositoryWhat it doesStackGold-and-Silver-Algo-Trading-Dashboard-fGold and Silver Algo Trading Dashboard for Indian Markets (MCX / Zerodha Kite)HTMLAlgo-trading-Phase-1-5-FoundationAlgo trading Phase 1: Foundation  Foundation — Setup, data & Kite basics Get youPythonQuantum-Computing-PlaygroundQuantum Computing PlaygroundHTMLQuantum-computing-basics(description coming)Python
+
+<sub>→ See all Algo Trading & Fintech repos · or search topic:algo-trading</sub>
+
+📊 Data & Dashboards  <img src='https://img.shields.io/badge/7+_repos-d4351c' align='center'/>
+
+RepositoryWhat it doesStackSQL-Learning-Playground-SQL Learning PlaygroundJavaScriptServer-monitoring-Using-Grafana-erver monitoring & alerting system using Grafana + Prometheus on Ubuntu, with daShellDesmos-playground-PolynomialA professional, interactive dashboardPythonResearch_summarizer_appA web app that lets users upload research papers (PDFs), summarizes the key sectPython
+
+<sub>→ See all Data & Dashboards repos · or search topic:data-analytics</sub>
+
+☁️ DevOps, Cloud & APIs  <img src='https://img.shields.io/badge/8+_repos-0969da' align='center'/>
+
+RepositoryWhat it doesStackNetworkSim-Topology-SimulatorRocket Network structure app web—IP_Address_Playground(description coming)PythonJaeger-Observability-LabJaeger Observability LabHTMLAPIverse-Backend-API-MasterAPIverse Backend & API MasterHTML
+
+<sub>→ See all DevOps, Cloud & APIs repos · or search topic:devops-cloud</sub>
+
+🌐 Web & Mobile Apps  <img src='https://img.shields.io/badge/15+_repos-1a7f37' align='center'/>
+
+RepositoryWhat it doesStackhttps-ai.studio-apps-drive-1YKIWEVi46RUCWCX CSV—Racing-2d-game2D car racing game web appTypeScriptFreelance-portfolioFreelancing portfolio blueprintPythonslidepulseSlido-like audience engagement web appJavaScript
+
+<sub>→ See all Web & Mobile Apps repos · or search topic:web-apps</sub>
+
+🧪 Learning Playgrounds  <img src='https://img.shields.io/badge/18+_repos-6e7781' align='center'/>
+
+RepositoryWhat it doesStackNotebookLM_Playground(description coming)HTMLSmartInfra_AI_Playground(description coming)HTMLCybersecurity_Playground(description coming)PythonPrecise_Farming_Playground(description coming)Python
+
+<sub>→ See all Learning Playgrounds repos · or search topic:learning-lab</sub>
 
 
----
+🛠️ Core Stack
 
-_✨“Code with a purpose. Learn with passion.” — Akhilesh_
+Show Image Show Image Show Image Show Image Show Image Show Image Show Image Show Image
+
+📊 GitHub Stats
+
+<img src="https://github-readme-stats.vercel.app/api?username=SINGHL25&show_icons=true&theme=tokyonight" height="160"/> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SINGHL25&layout=compact&theme=tokyonight" height="160"/>
+
+
+<sub>⚡ This profile is curated: my 15 flagship projects are pinned above and each flagship repo has a full README, architecture diagram, and setup guide.</sub>
 
 
 
