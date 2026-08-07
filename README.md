@@ -37,7 +37,7 @@
 
 ### 🛣️ ITS & Tolling Systems
 
-[<img src='https://img.shields.io/badge/59_repos-1f6feb?style=flat-square' alt='291 repos'/>](https://github.com/SINGHL25?tab=repositories&q=topic%3Aits-tolling) &nbsp; _Tolling infra, gantries, cameras, C-ITS, tunnels — production-scale traffic systems._
+[<img src='https://img.shields.io/badge/59_repos-1f6feb?style=flat-square' alt='328 repos'/>](https://github.com/SINGHL25?tab=repositories&q=topic%3Aits-tolling) &nbsp; _Tolling infra, gantries, cameras, C-ITS, tunnels — production-scale traffic systems._
 
 | # | Repository | What it does | Stack | ⭐ |
 |---|---|---|---|---|
