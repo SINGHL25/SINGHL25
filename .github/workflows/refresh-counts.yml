@@ -1,0 +1,69 @@
+name: Refresh portfolio counts
+
+on:
+  schedule:
+    - cron: '17 6 * * 1'      # every Monday 06:17 UTC
+  workflow_dispatch:           # adds a manual "Run workflow" button
+
+permissions:
+  contents: write              # lets the action push the README update
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Refresh counts from live topics
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          OWNER=SINGHL25
+          F=README.md
+          ht='[(.repositoryTopics // [])[] | if type=="object" then .name else . end]'
+          ct(){ gh repo list "$OWNER" --no-archived --limit 1000 --json repositoryTopics --jq "[.[] | select($ht | index(\"$1\"))] | length"; }
+          TOTAL=$(gh repo list "$OWNER" --no-archived --limit 1000 --json name --jq 'length')
+          CAT=$(ct portfolio)
+          ITS=$(ct its-tolling); MOB=$(ct smart-mobility); AIML=$(ct ai-ml)
+          ALGO=$(ct algo-trading); DATA=$(ct data-analytics); DEV=$(ct devops-cloud)
+          WEB=$(ct web-apps); LEARN=$(ct learning-lab)
+          MISC=$(( TOTAL - CAT ))
+          S(){ sed -i "$1" "$F"; }
+          S "s/.*total repos across.*/**$TOTAL** total repos across **8 tracks** · $CAT categorized · $MISC misc/"
+          S "s/ITS & Tolling Systems ([0-9]*)/ITS \& Tolling Systems ($ITS)/"
+          S "s/Smart Mobility & Traffic ([0-9]*)/Smart Mobility \& Traffic ($MOB)/"
+          S "s/AI, ML & Deep Learning ([0-9]*)/AI, ML \& Deep Learning ($AIML)/"
+          S "s/Algo Trading & Fintech ([0-9]*)/Algo Trading \& Fintech ($ALGO)/"
+          S "s/Data & Dashboards ([0-9]*)/Data \& Dashboards ($DATA)/"
+          S "s/DevOps, Cloud & APIs ([0-9]*)/DevOps, Cloud \& APIs ($DEV)/"
+          S "s/Web & Mobile Apps ([0-9]*)/Web \& Mobile Apps ($WEB)/"
+          S "s/Learning Playgrounds ([0-9]*)/Learning Playgrounds ($LEARN)/"
+          S "s/[0-9][0-9]*_repos-1f6feb/${ITS}_repos-1f6feb/"
+          S "s/[0-9][0-9]*_repos-2da44e/${MOB}_repos-2da44e/"
+          S "s/[0-9][0-9]*_repos-8250df/${AIML}_repos-8250df/"
+          S "s/[0-9][0-9]*_repos-bf8700/${ALGO}_repos-bf8700/"
+          S "s/[0-9][0-9]*_repos-d4351c/${DATA}_repos-d4351c/"
+          S "s/[0-9][0-9]*_repos-0969da/${DEV}_repos-0969da/"
+          S "s/[0-9][0-9]*_repos-1a7f37/${WEB}_repos-1a7f37/"
+          S "s/[0-9][0-9]*_repos-6e7781/${LEARN}_repos-6e7781/"
+          S "s/Browse all [0-9]* ITS & Tolling Systems/Browse all $ITS ITS \& Tolling Systems/"
+          S "s/Browse all [0-9]* Smart Mobility & Traffic/Browse all $MOB Smart Mobility \& Traffic/"
+          S "s/Browse all [0-9]* AI, ML & Deep Learning/Browse all $AIML AI, ML \& Deep Learning/"
+          S "s/Browse all [0-9]* Algo Trading & Fintech/Browse all $ALGO Algo Trading \& Fintech/"
+          S "s/Browse all [0-9]* Data & Dashboards/Browse all $DATA Data \& Dashboards/"
+          S "s/Browse all [0-9]* DevOps, Cloud & APIs/Browse all $DEV DevOps, Cloud \& APIs/"
+          S "s/Browse all [0-9]* Web & Mobile Apps/Browse all $WEB Web \& Mobile Apps/"
+          S "s/Browse all [0-9]* Learning Playgrounds/Browse all $LEARN Learning Playgrounds/"
+          echo "total=$TOTAL cat=$CAT misc=$MISC its=$ITS mob=$MOB aiml=$AIML algo=$ALGO data=$DATA dev=$DEV web=$WEB learn=$LEARN"
+
+      - name: Commit if changed
+        run: |
+          if git diff --quiet -- README.md; then
+            echo "No change — nothing to commit."
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit -am "chore: refresh portfolio counts [skip ci]"
+            git push
+          fi
