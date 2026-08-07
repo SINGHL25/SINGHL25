@@ -30,7 +30,7 @@ jobs:
           CAT=$(( ITS+MOB+AIML+ALGO+DATA+DEV+WEB+LEARN ))
           MISC=$(( TOTAL - CAT )); if (( MISC < 0 )); then MISC=0; fi
           S(){ sed -i "$1" "$F"; }
-          S "s/.*total repos across.*/**$TOTAL** total repos across **8 tracks**  $CAT categorized  $MISC misc/"
+          S "s/.*total repos across.*/**$TOTAL** total repos across **8 tracks** · $CAT categorized · $MISC misc/"
           S "s/ITS & Tolling Systems ([0-9]*)/ITS \& Tolling Systems ($ITS)/"
           S "s/Smart Mobility & Traffic ([0-9]*)/Smart Mobility \& Traffic ($MOB)/"
           S "s/AI, ML & Deep Learning ([0-9]*)/AI, ML \& Deep Learning ($AIML)/"
