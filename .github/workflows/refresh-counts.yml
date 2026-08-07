@@ -2,11 +2,11 @@ name: Refresh portfolio counts
 
 on:
   schedule:
-    - cron: '17 6 * * 1'      # every Monday 06:17 UTC
-  workflow_dispatch:           # adds a manual "Run workflow" button
+    - cron: '17 6 * * 1'
+  workflow_dispatch:
 
 permissions:
-  contents: write              # lets the action push the README update
+  contents: write
 
 jobs:
   refresh:
@@ -24,13 +24,13 @@ jobs:
           ht='[(.repositoryTopics // [])[] | if type=="object" then .name else . end]'
           ct(){ gh repo list "$OWNER" --no-archived --limit 1000 --json repositoryTopics --jq "[.[] | select($ht | index(\"$1\"))] | length"; }
           TOTAL=$(gh repo list "$OWNER" --no-archived --limit 1000 --json name --jq 'length')
-          CAT=$(ct portfolio)
           ITS=$(ct its-tolling); MOB=$(ct smart-mobility); AIML=$(ct ai-ml)
           ALGO=$(ct algo-trading); DATA=$(ct data-analytics); DEV=$(ct devops-cloud)
           WEB=$(ct web-apps); LEARN=$(ct learning-lab)
-          MISC=$(( TOTAL - CAT ))
+          CAT=$(( ITS+MOB+AIML+ALGO+DATA+DEV+WEB+LEARN ))
+          MISC=$(( TOTAL - CAT )); if (( MISC < 0 )); then MISC=0; fi
           S(){ sed -i "$1" "$F"; }
-          S "s/.*total repos across.*/**$TOTAL** total repos across **8 tracks** · $CAT categorized · $MISC misc/"
+          S "s/.*total repos across.*/**$TOTAL** total repos across **8 tracks**  $CAT categorized  $MISC misc/"
           S "s/ITS & Tolling Systems ([0-9]*)/ITS \& Tolling Systems ($ITS)/"
           S "s/Smart Mobility & Traffic ([0-9]*)/Smart Mobility \& Traffic ($MOB)/"
           S "s/AI, ML & Deep Learning ([0-9]*)/AI, ML \& Deep Learning ($AIML)/"
@@ -47,6 +47,14 @@ jobs:
           S "s/[0-9][0-9]*_repos-0969da/${DEV}_repos-0969da/"
           S "s/[0-9][0-9]*_repos-1a7f37/${WEB}_repos-1a7f37/"
           S "s/[0-9][0-9]*_repos-6e7781/${LEARN}_repos-6e7781/"
+          S "s|\(_repos-1f6feb[^>]*alt='\)[0-9]* repos|\1${ITS} repos|"
+          S "s|\(_repos-2da44e[^>]*alt='\)[0-9]* repos|\1${MOB} repos|"
+          S "s|\(_repos-8250df[^>]*alt='\)[0-9]* repos|\1${AIML} repos|"
+          S "s|\(_repos-bf8700[^>]*alt='\)[0-9]* repos|\1${ALGO} repos|"
+          S "s|\(_repos-d4351c[^>]*alt='\)[0-9]* repos|\1${DATA} repos|"
+          S "s|\(_repos-0969da[^>]*alt='\)[0-9]* repos|\1${DEV} repos|"
+          S "s|\(_repos-1a7f37[^>]*alt='\)[0-9]* repos|\1${WEB} repos|"
+          S "s|\(_repos-6e7781[^>]*alt='\)[0-9]* repos|\1${LEARN} repos|"
           S "s/Browse all [0-9]* ITS & Tolling Systems/Browse all $ITS ITS \& Tolling Systems/"
           S "s/Browse all [0-9]* Smart Mobility & Traffic/Browse all $MOB Smart Mobility \& Traffic/"
           S "s/Browse all [0-9]* AI, ML & Deep Learning/Browse all $AIML AI, ML \& Deep Learning/"
@@ -55,12 +63,12 @@ jobs:
           S "s/Browse all [0-9]* DevOps, Cloud & APIs/Browse all $DEV DevOps, Cloud \& APIs/"
           S "s/Browse all [0-9]* Web & Mobile Apps/Browse all $WEB Web \& Mobile Apps/"
           S "s/Browse all [0-9]* Learning Playgrounds/Browse all $LEARN Learning Playgrounds/"
-          echo "total=$TOTAL cat=$CAT misc=$MISC its=$ITS mob=$MOB aiml=$AIML algo=$ALGO data=$DATA dev=$DEV web=$WEB learn=$LEARN"
+          echo "total=$TOTAL cat=$CAT misc=$MISC | its=$ITS mob=$MOB aiml=$AIML algo=$ALGO data=$DATA dev=$DEV web=$WEB learn=$LEARN"
 
       - name: Commit if changed
         run: |
           if git diff --quiet -- README.md; then
-            echo "No change — nothing to commit."
+            echo "No change."
           else
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
