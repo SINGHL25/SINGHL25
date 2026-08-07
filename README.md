@@ -10,7 +10,7 @@
 
 ## 📊 Portfolio at a glance
 
-**173** public repos across **8 tracks** · 163 categorized · 10 untagged
+**802** total repos across **8 tracks** · 634 categorized · 168 untagged &nbsp;·&nbsp; 173 public
 
 ## 🗂️ Filter by track
 
@@ -31,13 +31,13 @@
 
 ## 🧭 Jump to a section
 
-🛣️ [ITS & Tolling Systems (59)](#its--tolling-systems) &nbsp;·&nbsp; 🚦 [Smart Mobility & Traffic (11)](#smart-mobility--traffic) &nbsp;·&nbsp; 🤖 [AI, ML & Deep Learning (35)](#ai-ml--deep-learning) &nbsp;·&nbsp; 📈 [Algo Trading & Fintech (6)](#algo-trading--fintech) &nbsp;·&nbsp; 📊 [Data & Dashboards (8)](#data--dashboards) &nbsp;·&nbsp; ☁️ [DevOps, Cloud & APIs (9)](#devops-cloud--apis) &nbsp;·&nbsp; 🌐 [Web & Mobile Apps (18)](#web--mobile-apps) &nbsp;·&nbsp; 🧪 [Learning Playgrounds (17)](#learning-playgrounds)
+🛣️ [ITS & Tolling Systems (324)](#its--tolling-systems) &nbsp;·&nbsp; 🚦 [Smart Mobility & Traffic (82)](#smart-mobility--traffic) &nbsp;·&nbsp; 🤖 [AI, ML & Deep Learning (94)](#ai-ml--deep-learning) &nbsp;·&nbsp; 📈 [Algo Trading & Fintech (13)](#algo-trading--fintech) &nbsp;·&nbsp; 📊 [Data & Dashboards (38)](#data--dashboards) &nbsp;·&nbsp; ☁️ [DevOps, Cloud & APIs (26)](#devops-cloud--apis) &nbsp;·&nbsp; 🌐 [Web & Mobile Apps (27)](#web--mobile-apps) &nbsp;·&nbsp; 🧪 [Learning Playgrounds (30)](#learning-playgrounds)
 
 ---
 
 ### 🛣️ ITS & Tolling Systems
 
-[<img src='https://img.shields.io/badge/59_repos-1f6feb?style=flat-square' alt='59 repos'/>](https://github.com/SINGHL25?tab=repositories&q=topic%3Aits-tolling) &nbsp; _Tolling infra, gantries, cameras, C-ITS, tunnels — production-scale traffic systems._
+[<img src='https://img.shields.io/badge/324_repos-1f6feb?style=flat-square' alt='324 repos'/>](https://github.com/SINGHL25?tab=repositories&q=topic%3Aits-tolling) &nbsp; _Tolling infra, gantries, cameras, C-ITS, tunnels — production-scale traffic systems._
 
 | # | Repository | What it does | Stack | ⭐ |
 |---|---|---|---|---|
@@ -48,13 +48,13 @@
 | 5 | **[Automatic-Number-Plate-Recognition-ANPR-System](https://github.com/SINGHL25/Automatic-Number-Plate-Recognition-ANPR-System)** | mplements two models: Transfer Learning using TensorFlow Obje… | `—` | 1 |
 | 6 | **[C-ITS-Roadwork-Safety-System](https://github.com/SINGHL25/C-ITS-Roadwork-Safety-System)** |  C-ITS Roadwork Safety System | `HTML` | 1 |
 
-<sub>🔎 **[Browse all 59 ITS & Tolling Systems repos →](https://github.com/SINGHL25?tab=repositories&q=topic%3Aits-tolling)**</sub>
+<sub>🔎 **[Browse all 324 ITS & Tolling Systems repos →](https://github.com/SINGHL25?tab=repositories&q=topic%3Aits-tolling)**</sub>
 
 ---
 
 ### 🚦 Smart Mobility & Traffic
 
-[<img src='https://img.shields.io/badge/11_repos-2da44e?style=flat-square' alt='11 repos'/>](https://github.com/SINGHL25?tab=repositories&q=topic%3Asmart-mobility) &nbsp; _Traffic monitoring, EV routing, GNSS, vehicle telematics._
+[<img src='https://img.shields.io/badge/82_repos-2da44e?style=flat-square' alt='82 repos'/>](https://github.com/SINGHL25?tab=repositories&q=topic%3Asmart-mobility) &nbsp; _Traffic monitoring, EV routing, GNSS, vehicle telematics._
 
 | # | Repository | What it does | Stack | ⭐ |
 |---|---|---|---|---|
@@ -65,13 +65,13 @@
 | 5 | **[vehicle-passage-ml](https://github.com/SINGHL25/vehicle-passage-ml)** | Vehicle Passage Prediction ML App | `Python` | 1 |
 | 6 | **[Akhilesh-portfolio-site](https://github.com/SINGHL25/Akhilesh-portfolio-site)** | Welcome to my GitHub! I’m a builder of real-world tech soluti… | `HTML` | 0 |
 
-<sub>🔎 **[Browse all 11 Smart Mobility & Traffic repos →](https://github.com/SINGHL25?tab=repositories&q=topic%3Asmart-mobility)**</sub>
+<sub>🔎 **[Browse all 82 Smart Mobility & Traffic repos →](https://github.com/SINGHL25?tab=repositories&q=topic%3Asmart-mobility)**</sub>
 
 ---
 
 ### 🤖 AI, ML & Deep Learning
 
-[<img src='https://img.shields.io/badge/35_repos-8250df?style=flat-square' alt='35 repos'/>](https://github.com/SINGHL25?tab=repositories&q=topic%3Aai-ml) &nbsp; _Transformers, LSTMs, CNNs, diffusion, applied ML demos._
+[<img src='https://img.shields.io/badge/94_repos-8250df?style=flat-square' alt='94 repos'/>](https://github.com/SINGHL25?tab=repositories&q=topic%3Aai-ml) &nbsp; _Transformers, LSTMs, CNNs, diffusion, applied ML demos._
 
 | # | Repository | What it does | Stack | ⭐ |
 |---|---|---|---|---|
@@ -82,13 +82,13 @@
 | 5 | **[AI-history-videos](https://github.com/SINGHL25/AI-history-videos)** | _(description coming)_ | `Python` | 0 |
 | 6 | **[ANN--PLAYGROUND](https://github.com/SINGHL25/ANN--PLAYGROUND)** | ANN -PLAYGROUND | `HTML` | 0 |
 
-<sub>🔎 **[Browse all 35 AI, ML & Deep Learning repos →](https://github.com/SINGHL25?tab=repositories&q=topic%3Aai-ml)**</sub>
+<sub>🔎 **[Browse all 94 AI, ML & Deep Learning repos →](https://github.com/SINGHL25?tab=repositories&q=topic%3Aai-ml)**</sub>
 
 ---
 
 ### 📈 Algo Trading & Fintech
 
-[<img src='https://img.shields.io/badge/6_repos-bf8700?style=flat-square' alt='6 repos'/>](https://github.com/SINGHL25?tab=repositories&q=topic%3Aalgo-trading) &nbsp; _MCX/Zerodha strategies, backtesting, quant dashboards._
+[<img src='https://img.shields.io/badge/13_repos-bf8700?style=flat-square' alt='13 repos'/>](https://github.com/SINGHL25?tab=repositories&q=topic%3Aalgo-trading) &nbsp; _MCX/Zerodha strategies, backtesting, quant dashboards._
 
 | # | Repository | What it does | Stack | ⭐ |
 |---|---|---|---|---|
@@ -99,13 +99,13 @@
 | 5 | **[QuantFlow---Algo-Trading-System](https://github.com/SINGHL25/QuantFlow---Algo-Trading-System)** | QuantFlow - Algo Trading System | `TypeScript` | 0 |
 | 6 | **[TradeShieldAI](https://github.com/SINGHL25/TradeShieldAI)** | TradeShieldAI | `HTML` | 0 |
 
-<sub>🔎 **[Browse all 6 Algo Trading & Fintech repos →](https://github.com/SINGHL25?tab=repositories&q=topic%3Aalgo-trading)**</sub>
+<sub>🔎 **[Browse all 13 Algo Trading & Fintech repos →](https://github.com/SINGHL25?tab=repositories&q=topic%3Aalgo-trading)**</sub>
 
 ---
 
 ### 📊 Data & Dashboards
 
-[<img src='https://img.shields.io/badge/8_repos-d4351c?style=flat-square' alt='8 repos'/>](https://github.com/SINGHL25?tab=repositories&q=topic%3Adata-analytics) &nbsp; _SQL, Power BI, Grafana, EDA, BI dashboards._
+[<img src='https://img.shields.io/badge/38_repos-d4351c?style=flat-square' alt='38 repos'/>](https://github.com/SINGHL25?tab=repositories&q=topic%3Adata-analytics) &nbsp; _SQL, Power BI, Grafana, EDA, BI dashboards._
 
 | # | Repository | What it does | Stack | ⭐ |
 |---|---|---|---|---|
@@ -116,13 +116,13 @@
 | 5 | **[Event-Management-Web-App](https://github.com/SINGHL25/Event-Management-Web-App)** | 🎟️ Build a personal Event Management Web App Like Eventbrite… | `Python` | 0 |
 | 6 | **[Research_summarizer_app](https://github.com/SINGHL25/Research_summarizer_app)** | A web app that lets users upload research papers (PDFs), summ… | `Python` | 0 |
 
-<sub>🔎 **[Browse all 8 Data & Dashboards repos →](https://github.com/SINGHL25?tab=repositories&q=topic%3Adata-analytics)**</sub>
+<sub>🔎 **[Browse all 38 Data & Dashboards repos →](https://github.com/SINGHL25?tab=repositories&q=topic%3Adata-analytics)**</sub>
 
 ---
 
 ### ☁️ DevOps, Cloud & APIs
 
-[<img src='https://img.shields.io/badge/9_repos-0969da?style=flat-square' alt='9 repos'/>](https://github.com/SINGHL25?tab=repositories&q=topic%3Adevops-cloud) &nbsp; _Kubernetes, Docker, observability, backend APIs._
+[<img src='https://img.shields.io/badge/26_repos-0969da?style=flat-square' alt='26 repos'/>](https://github.com/SINGHL25?tab=repositories&q=topic%3Adevops-cloud) &nbsp; _Kubernetes, Docker, observability, backend APIs._
 
 | # | Repository | What it does | Stack | ⭐ |
 |---|---|---|---|---|
@@ -133,13 +133,13 @@
 | 5 | **[Electron-hello-app-Desktop-app-GUI](https://github.com/SINGHL25/Electron-hello-app-Desktop-app-GUI)** | As a full native desktop app (on Windows, macOS, Linux) | `HTML` | 0 |
 | 6 | **[Jaeger-Observability-Lab](https://github.com/SINGHL25/Jaeger-Observability-Lab)** | Jaeger Observability Lab | `HTML` | 0 |
 
-<sub>🔎 **[Browse all 9 DevOps, Cloud & APIs repos →](https://github.com/SINGHL25?tab=repositories&q=topic%3Adevops-cloud)**</sub>
+<sub>🔎 **[Browse all 26 DevOps, Cloud & APIs repos →](https://github.com/SINGHL25?tab=repositories&q=topic%3Adevops-cloud)**</sub>
 
 ---
 
 ### 🌐 Web & Mobile Apps
 
-[<img src='https://img.shields.io/badge/18_repos-1a7f37?style=flat-square' alt='18 repos'/>](https://github.com/SINGHL25?tab=repositories&q=topic%3Aweb-apps) &nbsp; _Full-stack web + mobile apps in Flutter, React, JS._
+[<img src='https://img.shields.io/badge/27_repos-1a7f37?style=flat-square' alt='27 repos'/>](https://github.com/SINGHL25?tab=repositories&q=topic%3Aweb-apps) &nbsp; _Full-stack web + mobile apps in Flutter, React, JS._
 
 | # | Repository | What it does | Stack | ⭐ |
 |---|---|---|---|---|
@@ -150,13 +150,13 @@
 | 5 | **[slidepulse](https://github.com/SINGHL25/slidepulse)** | Slido-like audience engagement web app | `JavaScript` | 1 |
 | 6 | **[Birthday_Happiness](https://github.com/SINGHL25/Birthday_Happiness)** | _(description coming)_ | `HTML` | 0 |
 
-<sub>🔎 **[Browse all 18 Web & Mobile Apps repos →](https://github.com/SINGHL25?tab=repositories&q=topic%3Aweb-apps)**</sub>
+<sub>🔎 **[Browse all 27 Web & Mobile Apps repos →](https://github.com/SINGHL25?tab=repositories&q=topic%3Aweb-apps)**</sub>
 
 ---
 
 ### 🧪 Learning Playgrounds
 
-[<img src='https://img.shields.io/badge/17_repos-6e7781?style=flat-square' alt='17 repos'/>](https://github.com/SINGHL25?tab=repositories&q=topic%3Alearning-lab) &nbsp; _Interactive notebooks and hands-on tutorials._
+[<img src='https://img.shields.io/badge/30_repos-6e7781?style=flat-square' alt='30 repos'/>](https://github.com/SINGHL25?tab=repositories&q=topic%3Alearning-lab) &nbsp; _Interactive notebooks and hands-on tutorials._
 
 | # | Repository | What it does | Stack | ⭐ |
 |---|---|---|---|---|
@@ -167,7 +167,7 @@
 | 5 | **[NotebookLM_Playground](https://github.com/SINGHL25/NotebookLM_Playground)** | _(description coming)_ | `HTML` | 1 |
 | 6 | **[Precise_Farming_Playground](https://github.com/SINGHL25/Precise_Farming_Playground)** | _(description coming)_ | `Python` | 1 |
 
-<sub>🔎 **[Browse all 17 Learning Playgrounds repos →](https://github.com/SINGHL25?tab=repositories&q=topic%3Alearning-lab)**</sub>
+<sub>🔎 **[Browse all 30 Learning Playgrounds repos →](https://github.com/SINGHL25?tab=repositories&q=topic%3Alearning-lab)**</sub>
 
 ---
 
@@ -181,4 +181,4 @@
 
 ---
 
-<sub>⚡ Auto-generated weekly from live GitHub topics — counts, badges, and tables always in sync.</sub>
+<sub>⚡ Auto-generated from live GitHub topics — counts, badges, and links always in sync. 🔒 = private repo.</sub>

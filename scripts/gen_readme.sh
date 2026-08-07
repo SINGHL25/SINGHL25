@@ -1,21 +1,12 @@
 #!/usr/bin/env bash
-# Regenerates README.md entirely from live GitHub data (public repos, one query).
 set -euo pipefail
-OWNER="${OWNER:-SINGHL25}"
-OUT="${OUT:-README.md}"
-TOPN="${TOPN:-6}"
-
-DATA="$(gh repo list "$OWNER" --visibility public --no-archived --limit 1000 \
-  --json name,description,primaryLanguage,stargazerCount,repositoryTopics \
-  --jq '.[] | [
-      ([ (.repositoryTopics // [])[] | if type=="object" then .name else . end ] | join(",")),
-      (.stargazerCount // 0 | tostring), .name,
-      (.primaryLanguage.name // "—"),
-      ((.description // "") | gsub("[\t\n\r]";" "))
-    ] | @tsv')"
-
-if [ -z "$DATA" ]; then echo "ERROR: gh returned 0 repos — check 'gh auth status'." >&2; exit 1; fi
-
+OWNER="${OWNER:-SINGHL25}"; OUT="${OUT:-README.md}"; TOPN="${TOPN:-6}"; SHOW_PRIVATE="${SHOW_PRIVATE:-0}"
+DATA="$(gh repo list "$OWNER" --no-archived --limit 1000 \
+  --json name,description,primaryLanguage,stargazerCount,repositoryTopics,visibility \
+  --jq '.[] | [([ (.repositoryTopics//[])[] | if type=="object" then .name else . end ]|join(";")),
+      (.stargazerCount//0|tostring), .name, (.primaryLanguage.name//"—"),
+      (.visibility|ascii_upcase), ((.description//"")|gsub("[\t\n\r]";" "))] | @tsv')"
+[ -z "$DATA" ] && { echo "ERROR: gh returned 0 repos — check 'gh auth status'." >&2; exit 1; }
 TRACKS=$(cat <<'CFG'
 its-tolling	🛣️	ITS & Tolling Systems	1f6feb	ITS_%26_Tolling_Systems	Tolling infra, gantries, cameras, C-ITS, tunnels — production-scale traffic systems.	its--tolling-systems
 smart-mobility	🚦	Smart Mobility & Traffic	2da44e	Smart_Mobility_%26_Traffic	Traffic monitoring, EV routing, GNSS, vehicle telematics.	smart-mobility--traffic
@@ -27,27 +18,20 @@ web-apps	🌐	Web & Mobile Apps	1a7f37	Web_%26_Mobile_Apps	Full-stack web + mobi
 learning-lab	🧪	Learning Playgrounds	6e7781	Learning_Playgrounds	Interactive notebooks and hands-on tutorials.	learning-playgrounds
 CFG
 )
-
-TOTAL=$(printf '%s\n' "$DATA" | grep -c . || true)
-count_track(){ printf '%s\n' "$DATA" | awk -F'\t' -v t=",$1," 'index(","$1",",t){n++} END{print n+0}'; }
-CATEGORIZED=$(printf '%s\n' "$DATA" | awk -F'\t' '
-  BEGIN{split("its-tolling smart-mobility ai-ml algo-trading data-analytics devops-cloud web-apps learning-lab",K," ")}
-  {tp=","$1","; for(i in K) if(index(tp,","K[i]",")){c++; next}} END{print c+0}')
+TOTAL=$(printf '%s\n' "$DATA" | grep -c .)
+PUB=$(printf '%s\n' "$DATA" | awk -F'\t' '$5=="PUBLIC"{c++}END{print c+0}')
+count_track(){ printf '%s\n' "$DATA" | awk -F'\t' -v k="$1" '{n=split($1,a,";");for(i=1;i<=n;i++)if(a[i]==k){c++;break}}END{print c+0}'; }
+CATEGORIZED=$(printf '%s\n' "$DATA" | awk -F'\t' 'BEGIN{split("its-tolling smart-mobility ai-ml algo-trading data-analytics devops-cloud web-apps learning-lab",K," ")}{n=split($1,a,";");for(i=1;i<=n;i++){for(j in K)if(a[i]==K[j]){c++;f=1;break}if(f){f=0;break}}}END{print c+0}')
 MISC=$(( TOTAL - CATEGORIZED )); if (( MISC < 0 )); then MISC=0; fi
-
-row_for_track(){
-  local key="$1" i=0
-  printf '%s\n' "$DATA" | awk -F'\t' -v t=",$key," 'index(","$1",",t)' \
+row_for_track(){ local key="$1" i=0
+  printf '%s\n' "$DATA" | awk -F'\t' -v k="$key" -v sp="$SHOW_PRIVATE" '{n=split($1,a,";");hit=0;for(x=1;x<=n;x++)if(a[x]==k)hit=1; if(hit && (sp=="1" || $5=="PUBLIC")) print}' \
     | sort -t$'\t' -k2,2nr -k3,3 | head -n "$TOPN" \
-    | while IFS=$'\t' read -r topics stars name lang desc; do
-        i=$((i+1))
-        desc="${desc//|//}"; [ ${#desc} -gt 62 ] && desc="${desc:0:61}…"
-        [ -z "$desc" ] && desc="_(description coming)_"
-        printf '| %d | **[%s](https://github.com/%s/%s)** | %s | `%s` | %s |\n' \
-          "$i" "$name" "$OWNER" "$name" "$desc" "$lang" "$stars"
+    | while IFS=$'\t' read -r topics stars name lang vis desc; do i=$((i+1))
+        desc="${desc//|//}"; [ ${#desc} -gt 62 ] && desc="${desc:0:61}…"; [ -z "$desc" ] && desc="_(description coming)_"
+        tag=""; [ "$vis" != "PUBLIC" ] && tag=" 🔒"
+        printf '| %d | **[%s](https://github.com/%s/%s)**%s | %s | `%s` | %s |\n' "$i" "$name" "$OWNER" "$name" "$tag" "$desc" "$lang" "$stars"
       done
 }
-
 {
 cat <<HEADER
 # 👋 Hi, I'm Akhilesh Kumar Singh
@@ -62,7 +46,7 @@ cat <<HEADER
 
 ## 📊 Portfolio at a glance
 
-**${TOTAL}** public repos across **8 tracks** · ${CATEGORIZED} categorized · ${MISC} untagged
+**${TOTAL}** total repos across **8 tracks** · ${CATEGORIZED} categorized · ${MISC} untagged &nbsp;·&nbsp; ${PUB} public
 
 ## 🗂️ Filter by track
 
@@ -70,25 +54,14 @@ cat <<HEADER
 
 <p align='left'>
 HEADER
-
-while IFS=$'\t' read -r key emoji name color label blurb anchor; do
-  [ -z "$key" ] && continue
-  printf '<a href="https://github.com/%s?tab=repositories&q=topic%%3A%s"><img src="https://img.shields.io/badge/%s-%s?style=for-the-badge" alt="%s"/></a>\n' \
-    "$OWNER" "$key" "$label" "$color" "$name"
+while IFS=$'\t' read -r key emoji name color label blurb anchor; do [ -z "$key" ] && continue
+  printf '<a href="https://github.com/%s?tab=repositories&q=topic%%3A%s"><img src="https://img.shields.io/badge/%s-%s?style=for-the-badge" alt="%s"/></a>\n' "$OWNER" "$key" "$label" "$color" "$name"
 done <<< "$TRACKS"
-
 echo "</p>"; echo ""; echo "---"; echo ""; echo "## 🧭 Jump to a section"; echo ""
-jump=""
-while IFS=$'\t' read -r key emoji name color label blurb anchor; do
-  [ -z "$key" ] && continue
-  n=$(count_track "$key")
-  seg="$emoji [$name ($n)](#$anchor)"
-  jump="${jump:+$jump &nbsp;·&nbsp; }$seg"
-done <<< "$TRACKS"
-echo "$jump"; echo ""; echo "---"
-
-while IFS=$'\t' read -r key emoji name color label blurb anchor; do
-  [ -z "$key" ] && continue
+jump=""; while IFS=$'\t' read -r key emoji name color label blurb anchor; do [ -z "$key" ] && continue
+  n=$(count_track "$key"); seg="$emoji [$name ($n)](#$anchor)"; jump="${jump:+$jump &nbsp;·&nbsp; }$seg"
+done <<< "$TRACKS"; echo "$jump"; echo ""; echo "---"
+while IFS=$'\t' read -r key emoji name color label blurb anchor; do [ -z "$key" ] && continue
   n=$(count_track "$key")
   echo ""; echo "### $emoji $name"; echo ""
   echo "[<img src='https://img.shields.io/badge/${n}_repos-${color}?style=flat-square' alt='${n} repos'/>](https://github.com/$OWNER?tab=repositories&q=topic%3A$key) &nbsp; _${blurb}_"
@@ -97,7 +70,6 @@ while IFS=$'\t' read -r key emoji name color label blurb anchor; do
   echo ""; echo "<sub>🔎 **[Browse all $n $name repos →](https://github.com/$OWNER?tab=repositories&q=topic%3A$key)**</sub>"
   echo ""; echo "---"
 done <<< "$TRACKS"
-
 cat <<'FOOTER'
 
 ## 🛠️ Core Stack
@@ -110,8 +82,7 @@ cat <<'FOOTER'
 
 ---
 
-<sub>⚡ Auto-generated weekly from live GitHub topics — counts, badges, and tables always in sync.</sub>
+<sub>⚡ Auto-generated from live GitHub topics — counts, badges, and links always in sync. 🔒 = private repo.</sub>
 FOOTER
 } > "$OUT"
-
-echo "WROTE $OUT | total=$TOTAL categorized=$CATEGORIZED untagged=$MISC" >&2
+echo "WROTE $OUT | total=$TOTAL ($PUB public) categorized=$CATEGORIZED untagged=$MISC" >&2
