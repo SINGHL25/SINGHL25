@@ -1,20 +1,20 @@
 #!/usr/bin/env bash
-# Regenerates README.md entirely from live GitHub data. Counts/badges/tables all
-# derive from ONE query, so they cannot disagree. Public repos only (matches what
-# a profile visitor sees, and makes local & CI runs identical).
+# Regenerates README.md entirely from live GitHub data (public repos, one query).
 set -euo pipefail
 OWNER="${OWNER:-SINGHL25}"
 OUT="${OUT:-README.md}"
 TOPN="${TOPN:-6}"
 
-DATA="$(gh repo list "$OWNER" --no-archived --limit 1000 \
-  --json name,description,primaryLanguage,stargazerCount,repositoryTopics,visibility \
-  --jq '.[] | select(.visibility=="public") | [
+DATA="$(gh repo list "$OWNER" --visibility public --no-archived --limit 1000 \
+  --json name,description,primaryLanguage,stargazerCount,repositoryTopics \
+  --jq '.[] | [
       ([ (.repositoryTopics // [])[] | if type=="object" then .name else . end ] | join(",")),
       (.stargazerCount // 0 | tostring), .name,
       (.primaryLanguage.name // "—"),
       ((.description // "") | gsub("[\t\n\r]";" "))
     ] | @tsv')"
+
+if [ -z "$DATA" ]; then echo "ERROR: gh returned 0 repos — check 'gh auth status'." >&2; exit 1; fi
 
 TRACKS=$(cat <<'CFG'
 its-tolling	🛣️	ITS & Tolling Systems	1f6feb	ITS_%26_Tolling_Systems	Tolling infra, gantries, cameras, C-ITS, tunnels — production-scale traffic systems.	its--tolling-systems
