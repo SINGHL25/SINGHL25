@@ -10,7 +10,7 @@
 
 ## 📊 Portfolio at a glance
 
-**778** total repos across **8 tracks** · 606 categorized · 172 misc
+**173** total repos across **8 tracks** · 173 categorized · 0 misc
 
 ## 🗂️ Filter by track
 
@@ -31,13 +31,13 @@
 
 ## 🧭 Jump to a section
 
-🛣️ [ITS & Tolling Systems (291)](#its--tolling-systems) &nbsp;·&nbsp; 🚦 [Smart Mobility & Traffic (79)](#smart-mobility--traffic) &nbsp;·&nbsp; 🤖 [AI, ML & Deep Learning (103)](#ai-ml--deep-learning) &nbsp;·&nbsp; 📈 [Algo Trading & Fintech (14)](#algo-trading--fintech) &nbsp;·&nbsp; 📊 [Data & Dashboards (37)](#data--dashboards) &nbsp;·&nbsp; ☁️ [DevOps, Cloud & APIs (24)](#devops-cloud--apis) &nbsp;·&nbsp; 🌐 [Web & Mobile Apps (24)](#web--mobile-apps) &nbsp;·&nbsp; 🧪 [Learning Playgrounds (34)](#learning-playgrounds)
+🛣️ [ITS & Tolling Systems (59)](#its--tolling-systems) &nbsp;·&nbsp; 🚦 [Smart Mobility & Traffic (11)](#smart-mobility--traffic) &nbsp;·&nbsp; 🤖 [AI, ML & Deep Learning (35)](#ai-ml--deep-learning) &nbsp;·&nbsp; 📈 [Algo Trading & Fintech (6)](#algo-trading--fintech) &nbsp;·&nbsp; 📊 [Data & Dashboards (8)](#data--dashboards) &nbsp;·&nbsp; ☁️ [DevOps, Cloud & APIs (9)](#devops-cloud--apis) &nbsp;·&nbsp; 🌐 [Web & Mobile Apps (18)](#web--mobile-apps) &nbsp;·&nbsp; 🧪 [Learning Playgrounds (17)](#learning-playgrounds)
 
 ---
 
 ### 🛣️ ITS & Tolling Systems
 
-[<img src='https://img.shields.io/badge/291_repos-1f6feb?style=flat-square' alt='291 repos'/>](https://github.com/SINGHL25?tab=repositories&q=topic%3Aits-tolling) &nbsp; _Tolling infra, gantries, cameras, C-ITS, tunnels — production-scale traffic systems._
+[<img src='https://img.shields.io/badge/59_repos-1f6feb?style=flat-square' alt='291 repos'/>](https://github.com/SINGHL25?tab=repositories&q=topic%3Aits-tolling) &nbsp; _Tolling infra, gantries, cameras, C-ITS, tunnels — production-scale traffic systems._
 
 | # | Repository | What it does | Stack | ⭐ |
 |---|---|---|---|---|
@@ -48,13 +48,13 @@
 | 5 | **[Operian-Roadside-RSS-pipeline-LV2-](https://github.com/SINGHL25/Operian-Roadside-RSS-pipeline-LV2-)** | Operian Roadside RSS pipeline LEVEL 2 | `HTML` | 1 |
 | 6 | **[Operian-4-LVL1--Platform-Simulated-En…](https://github.com/SINGHL25/Operian-4-LVL1--Platform-Simulated-Environment-Roadside-RSS-Live-Point-of-Change)** | Operian 4 Platform · Simulated Environment Roadside RSS — Live Point-of-… | `HTML` | 1 |
 
-<sub>🔎 **[Browse all 291 ITS & Tolling Systems repos →](https://github.com/SINGHL25?tab=repositories&q=topic%3Aits-tolling)**</sub>
+<sub>🔎 **[Browse all 59 ITS & Tolling Systems repos →](https://github.com/SINGHL25?tab=repositories&q=topic%3Aits-tolling)**</sub>
 
 ---
 
 ### 🚦 Smart Mobility & Traffic
 
-[<img src='https://img.shields.io/badge/79_repos-2da44e?style=flat-square' alt='79 repos'/>](https://github.com/SINGHL25?tab=repositories&q=topic%3Asmart-mobility) &nbsp; _Traffic monitoring, EV routing, GNSS, vehicle telematics._
+[<img src='https://img.shields.io/badge/11_repos-2da44e?style=flat-square' alt='79 repos'/>](https://github.com/SINGHL25?tab=repositories&q=topic%3Asmart-mobility) &nbsp; _Traffic monitoring, EV routing, GNSS, vehicle telematics._
 
 | # | Repository | What it does | Stack | ⭐ |
 |---|---|---|---|---|
@@ -65,13 +65,13 @@
 | 5 | **[Vestra---Traffic-Enforcement-Knowledg…](https://github.com/SINGHL25/Vestra---Traffic-Enforcement-Knowledge-System)** | Vestra - Traffic Enforcement Knowledge System | `TypeScript` | 1 |
 | 6 | **[Tritium-PKM150-EV-Charger-Pro](https://github.com/SINGHL25/Tritium-PKM150-EV-Charger-Pro)** | Tritium PKM150 EV Charger Pro | `TypeScript` | 1 |
 
-<sub>🔎 **[Browse all 79 Smart Mobility & Traffic repos →](https://github.com/SINGHL25?tab=repositories&q=topic%3Asmart-mobility)**</sub>
+<sub>🔎 **[Browse all 11 Smart Mobility & Traffic repos →](https://github.com/SINGHL25?tab=repositories&q=topic%3Asmart-mobility)**</sub>
 
 ---
 
 ### 🤖 AI, ML & Deep Learning
 
-[<img src='https://img.shields.io/badge/103_repos-8250df?style=flat-square' alt='103 repos'/>](https://github.com/SINGHL25?tab=repositories&q=topic%3Aai-ml) &nbsp; _Transformers, LSTMs, CNNs, diffusion, applied ML demos._
+[<img src='https://img.shields.io/badge/35_repos-8250df?style=flat-square' alt='103 repos'/>](https://github.com/SINGHL25?tab=repositories&q=topic%3Aai-ml) &nbsp; _Transformers, LSTMs, CNNs, diffusion, applied ML demos._
 
 | # | Repository | What it does | Stack | ⭐ |
 |---|---|---|---|---|
@@ -82,13 +82,13 @@
 | 5 | **[LogCrystal-AI](https://github.com/SINGHL25/LogCrystal-AI)** | LogCrystal AI | `TypeScript` | 1 |
 | 6 | **[EastLink-TOS-IPS-Interface-Simulator](https://github.com/SINGHL25/EastLink-TOS-IPS-Interface-Simulator)** | EastLink TOS-IPS Interface Simulator | `TypeScript` | 1 |
 
-<sub>🔎 **[Browse all 103 AI, ML & Deep Learning repos →](https://github.com/SINGHL25?tab=repositories&q=topic%3Aai-ml)**</sub>
+<sub>🔎 **[Browse all 35 AI, ML & Deep Learning repos →](https://github.com/SINGHL25?tab=repositories&q=topic%3Aai-ml)**</sub>
 
 ---
 
 ### 📈 Algo Trading & Fintech
 
-[<img src='https://img.shields.io/badge/14_repos-bf8700?style=flat-square' alt='14 repos'/>](https://github.com/SINGHL25?tab=repositories&q=topic%3Aalgo-trading) &nbsp; _MCX/Zerodha strategies, backtesting, quant dashboards._
+[<img src='https://img.shields.io/badge/6_repos-bf8700?style=flat-square' alt='14 repos'/>](https://github.com/SINGHL25?tab=repositories&q=topic%3Aalgo-trading) &nbsp; _MCX/Zerodha strategies, backtesting, quant dashboards._
 
 | # | Repository | What it does | Stack | ⭐ |
 |---|---|---|---|---|
@@ -99,13 +99,13 @@
 | 5 | **[Gold-and-Silver-Algo-Trading-Dashboar…](https://github.com/SINGHL25/Gold-and-Silver-Algo-Trading-Dashboard-for-Indian-Markets-MCX-Zerodha-Kite-)** | Gold and Silver Algo Trading Dashboard for Indian Markets (MCX / Zerodha… | `HTML` | 1 |
 | 6 | **[Algo-trading-Phase-1-5-Foundation](https://github.com/SINGHL25/Algo-trading-Phase-1-5-Foundation)** | Algo trading Phase 1: Foundation  Foundation — Setup, data & Kite basics… | `Python` | 1 |
 
-<sub>🔎 **[Browse all 14 Algo Trading & Fintech repos →](https://github.com/SINGHL25?tab=repositories&q=topic%3Aalgo-trading)**</sub>
+<sub>🔎 **[Browse all 6 Algo Trading & Fintech repos →](https://github.com/SINGHL25?tab=repositories&q=topic%3Aalgo-trading)**</sub>
 
 ---
 
 ### 📊 Data & Dashboards
 
-[<img src='https://img.shields.io/badge/37_repos-d4351c?style=flat-square' alt='37 repos'/>](https://github.com/SINGHL25?tab=repositories&q=topic%3Adata-analytics) &nbsp; _SQL, Power BI, Grafana, EDA, BI dashboards._
+[<img src='https://img.shields.io/badge/8_repos-d4351c?style=flat-square' alt='37 repos'/>](https://github.com/SINGHL25?tab=repositories&q=topic%3Adata-analytics) &nbsp; _SQL, Power BI, Grafana, EDA, BI dashboards._
 
 | # | Repository | What it does | Stack | ⭐ |
 |---|---|---|---|---|
@@ -116,13 +116,13 @@
 | 5 | **[Urban-Access-Management-interactive-s…](https://github.com/SINGHL25/Urban-Access-Management-interactive-simulation-dashboard)** | Urban Access Management interactive simulation dashboard | `HTML` | 1 |
 | 6 | **[POWER-BI-Connect-East-UAT-Learning-Pr…](https://github.com/SINGHL25/POWER-BI-Connect-East-UAT-Learning-Practice)** | REPORT Connect-East UAT Learning & Practice | `TypeScript` | 1 |
 
-<sub>🔎 **[Browse all 37 Data & Dashboards repos →](https://github.com/SINGHL25?tab=repositories&q=topic%3Adata-analytics)**</sub>
+<sub>🔎 **[Browse all 8 Data & Dashboards repos →](https://github.com/SINGHL25?tab=repositories&q=topic%3Adata-analytics)**</sub>
 
 ---
 
 ### ☁️ DevOps, Cloud & APIs
 
-[<img src='https://img.shields.io/badge/24_repos-0969da?style=flat-square' alt='24 repos'/>](https://github.com/SINGHL25?tab=repositories&q=topic%3Adevops-cloud) &nbsp; _Kubernetes, Docker, observability, backend APIs._
+[<img src='https://img.shields.io/badge/9_repos-0969da?style=flat-square' alt='24 repos'/>](https://github.com/SINGHL25?tab=repositories&q=topic%3Adevops-cloud) &nbsp; _Kubernetes, Docker, observability, backend APIs._
 
 | # | Repository | What it does | Stack | ⭐ |
 |---|---|---|---|---|
@@ -133,13 +133,13 @@
 | 5 | **[EcoTrafiX-K8s-Learning-Hub](https://github.com/SINGHL25/EcoTrafiX-K8s-Learning-Hub)** | EcoTrafiX K8s Learning Hub | `TypeScript` | 1 |
 | 6 | **[Operian-AEC-Architect---Vision-Pipeli…](https://github.com/SINGHL25/Operian-AEC-Architect---Vision-Pipeline-Designer)** | Operian AEC Architect - Vision Pipeline Designer | `TypeScript` | 1 |
 
-<sub>🔎 **[Browse all 24 DevOps, Cloud & APIs repos →](https://github.com/SINGHL25?tab=repositories&q=topic%3Adevops-cloud)**</sub>
+<sub>🔎 **[Browse all 9 DevOps, Cloud & APIs repos →](https://github.com/SINGHL25?tab=repositories&q=topic%3Adevops-cloud)**</sub>
 
 ---
 
 ### 🌐 Web & Mobile Apps
 
-[<img src='https://img.shields.io/badge/24_repos-1a7f37?style=flat-square' alt='24 repos'/>](https://github.com/SINGHL25?tab=repositories&q=topic%3Aweb-apps) &nbsp; _Full-stack web + mobile apps in Flutter, React, JS._
+[<img src='https://img.shields.io/badge/18_repos-1a7f37?style=flat-square' alt='24 repos'/>](https://github.com/SINGHL25?tab=repositories&q=topic%3Aweb-apps) &nbsp; _Full-stack web + mobile apps in Flutter, React, JS._
 
 | # | Repository | What it does | Stack | ⭐ |
 |---|---|---|---|---|
@@ -150,13 +150,13 @@
 | 5 | **[3D-Printing-Spider-Robot-Smart-Constr…](https://github.com/SINGHL25/3D-Printing-Spider-Robot-Smart-Construction-Simulator)** | 3D | `TypeScript` | 1 |
 | 6 | **[Racing-2d-game](https://github.com/SINGHL25/Racing-2d-game)** | 2D car racing game web app | `TypeScript` | 1 |
 
-<sub>🔎 **[Browse all 24 Web & Mobile Apps repos →](https://github.com/SINGHL25?tab=repositories&q=topic%3Aweb-apps)**</sub>
+<sub>🔎 **[Browse all 18 Web & Mobile Apps repos →](https://github.com/SINGHL25?tab=repositories&q=topic%3Aweb-apps)**</sub>
 
 ---
 
 ### 🧪 Learning Playgrounds
 
-[<img src='https://img.shields.io/badge/34_repos-6e7781?style=flat-square' alt='34 repos'/>](https://github.com/SINGHL25?tab=repositories&q=topic%3Alearning-lab) &nbsp; _Interactive notebooks and hands-on tutorials._
+[<img src='https://img.shields.io/badge/17_repos-6e7781?style=flat-square' alt='34 repos'/>](https://github.com/SINGHL25?tab=repositories&q=topic%3Alearning-lab) &nbsp; _Interactive notebooks and hands-on tutorials._
 
 | # | Repository | What it does | Stack | ⭐ |
 |---|---|---|---|---|
@@ -167,7 +167,7 @@
 | 5 | **[EDIS-Interactive-System-Playground](https://github.com/SINGHL25/EDIS-Interactive-System-Playground)** | EDIS Interactive System Playground mlff | `TypeScript` | 1 |
 | 6 | **[CSA-Core-Playground-wgt-](https://github.com/SINGHL25/CSA-Core-Playground-wgt-)** | CSA Core Playground wgt MLFF | `TypeScript` | 1 |
 
-<sub>🔎 **[Browse all 34 Learning Playgrounds repos →](https://github.com/SINGHL25?tab=repositories&q=topic%3Alearning-lab)**</sub>
+<sub>🔎 **[Browse all 17 Learning Playgrounds repos →](https://github.com/SINGHL25?tab=repositories&q=topic%3Alearning-lab)**</sub>
 
 ---
 
