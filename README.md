@@ -10,7 +10,7 @@
 
 ## 📊 Portfolio at a glance
 
-**175** total repos across **8 tracks** · 163 categorized · 12 misc
+**176** total repos across **8 tracks** · 164 categorized · 12 misc
 
 ## 🗂️ Filter by track
 
@@ -31,13 +31,13 @@
 
 ## 🧭 Jump to a section
 
-🛣️ [ITS & Tolling Systems (59)](#its--tolling-systems) &nbsp;·&nbsp; 🚦 [Smart Mobility & Traffic (11)](#smart-mobility--traffic) &nbsp;·&nbsp; 🤖 [AI, ML & Deep Learning (35)](#ai-ml--deep-learning) &nbsp;·&nbsp; 📈 [Algo Trading & Fintech (6)](#algo-trading--fintech) &nbsp;·&nbsp; 📊 [Data & Dashboards (8)](#data--dashboards) &nbsp;·&nbsp; ☁️ [DevOps, Cloud & APIs (9)](#devops-cloud--apis) &nbsp;·&nbsp; 🌐 [Web & Mobile Apps (18)](#web--mobile-apps) &nbsp;·&nbsp; 🧪 [Learning Playgrounds (17)](#learning-playgrounds)
+🛣️ [ITS & Tolling Systems (60)](#its--tolling-systems) &nbsp;·&nbsp; 🚦 [Smart Mobility & Traffic (11)](#smart-mobility--traffic) &nbsp;·&nbsp; 🤖 [AI, ML & Deep Learning (35)](#ai-ml--deep-learning) &nbsp;·&nbsp; 📈 [Algo Trading & Fintech (6)](#algo-trading--fintech) &nbsp;·&nbsp; 📊 [Data & Dashboards (8)](#data--dashboards) &nbsp;·&nbsp; ☁️ [DevOps, Cloud & APIs (9)](#devops-cloud--apis) &nbsp;·&nbsp; 🌐 [Web & Mobile Apps (18)](#web--mobile-apps) &nbsp;·&nbsp; 🧪 [Learning Playgrounds (17)](#learning-playgrounds)
 
 ---
 
 ### 🛣️ ITS & Tolling Systems
 
-[<img src='https://img.shields.io/badge/59_repos-1f6feb?style=flat-square' alt='59 repos'/>](https://github.com/SINGHL25?tab=repositories&q=topic%3Aits-tolling) &nbsp; _Tolling infra, gantries, cameras, C-ITS, tunnels — production-scale traffic systems._
+[<img src='https://img.shields.io/badge/60_repos-1f6feb?style=flat-square' alt='60 repos'/>](https://github.com/SINGHL25?tab=repositories&q=topic%3Aits-tolling) &nbsp; _Tolling infra, gantries, cameras, C-ITS, tunnels — production-scale traffic systems._
 
 | # | Repository | What it does | Stack | ⭐ |
 |---|---|---|---|---|
@@ -48,7 +48,7 @@
 | 5 | **[Automatic-Number-Plate-Recognition-ANPR-System](https://github.com/SINGHL25/Automatic-Number-Plate-Recognition-ANPR-System)** | mplements two models: Transfer Learning using TensorFlow Obje… | `—` | 1 |
 | 6 | **[C-ITS-Roadwork-Safety-System](https://github.com/SINGHL25/C-ITS-Roadwork-Safety-System)** |  C-ITS Roadwork Safety System | `HTML` | 1 |
 
-<sub>🔎 **[Browse all 59 ITS & Tolling Systems repos →](https://github.com/SINGHL25?tab=repositories&q=topic%3Aits-tolling)**</sub>
+<sub>🔎 **[Browse all 60 ITS & Tolling Systems repos →](https://github.com/SINGHL25?tab=repositories&q=topic%3Aits-tolling)**</sub>
 
 ---
 
