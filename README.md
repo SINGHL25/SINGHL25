@@ -10,7 +10,7 @@
 
 ## 📊 Portfolio at a glance
 
-**176** total repos across **8 tracks** · 164 categorized · 12 misc
+**176** total repos across **8 tracks** · 170 categorized · 6 misc
 
 ## 🗂️ Filter by track
 
@@ -31,7 +31,7 @@
 
 ## 🧭 Jump to a section
 
-🛣️ [ITS & Tolling Systems (60)](#its--tolling-systems) &nbsp;·&nbsp; 🚦 [Smart Mobility & Traffic (11)](#smart-mobility--traffic) &nbsp;·&nbsp; 🤖 [AI, ML & Deep Learning (35)](#ai-ml--deep-learning) &nbsp;·&nbsp; 📈 [Algo Trading & Fintech (6)](#algo-trading--fintech) &nbsp;·&nbsp; 📊 [Data & Dashboards (8)](#data--dashboards) &nbsp;·&nbsp; ☁️ [DevOps, Cloud & APIs (9)](#devops-cloud--apis) &nbsp;·&nbsp; 🌐 [Web & Mobile Apps (18)](#web--mobile-apps) &nbsp;·&nbsp; 🧪 [Learning Playgrounds (17)](#learning-playgrounds)
+🛣️ [ITS & Tolling Systems (60)](#its--tolling-systems) &nbsp;·&nbsp; 🚦 [Smart Mobility & Traffic (11)](#smart-mobility--traffic) &nbsp;·&nbsp; 🤖 [AI, ML & Deep Learning (34)](#ai-ml--deep-learning) &nbsp;·&nbsp; 📈 [Algo Trading & Fintech (6)](#algo-trading--fintech) &nbsp;·&nbsp; 📊 [Data & Dashboards (8)](#data--dashboards) &nbsp;·&nbsp; ☁️ [DevOps, Cloud & APIs (9)](#devops-cloud--apis) &nbsp;·&nbsp; 🌐 [Web & Mobile Apps (18)](#web--mobile-apps) &nbsp;·&nbsp; 🧪 [Learning Playgrounds (24)](#learning-playgrounds)
 
 ---
 
@@ -71,7 +71,7 @@
 
 ### 🤖 AI, ML & Deep Learning
 
-[<img src='https://img.shields.io/badge/35_repos-8250df?style=flat-square' alt='35 repos'/>](https://github.com/SINGHL25?tab=repositories&q=topic%3Aai-ml) &nbsp; _Transformers, LSTMs, CNNs, diffusion, applied ML demos._
+[<img src='https://img.shields.io/badge/34_repos-8250df?style=flat-square' alt='34 repos'/>](https://github.com/SINGHL25?tab=repositories&q=topic%3Aai-ml) &nbsp; _Transformers, LSTMs, CNNs, diffusion, applied ML demos._
 
 | # | Repository | What it does | Stack | ⭐ |
 |---|---|---|---|---|
@@ -82,7 +82,7 @@
 | 5 | **[AI-history-videos](https://github.com/SINGHL25/AI-history-videos)** | _(description coming)_ | `Python` | 0 |
 | 6 | **[ANN--PLAYGROUND](https://github.com/SINGHL25/ANN--PLAYGROUND)** | ANN -PLAYGROUND | `HTML` | 0 |
 
-<sub>🔎 **[Browse all 35 AI, ML & Deep Learning repos →](https://github.com/SINGHL25?tab=repositories&q=topic%3Aai-ml)**</sub>
+<sub>🔎 **[Browse all 34 AI, ML & Deep Learning repos →](https://github.com/SINGHL25?tab=repositories&q=topic%3Aai-ml)**</sub>
 
 ---
 
@@ -156,7 +156,7 @@
 
 ### 🧪 Learning Playgrounds
 
-[<img src='https://img.shields.io/badge/17_repos-6e7781?style=flat-square' alt='17 repos'/>](https://github.com/SINGHL25?tab=repositories&q=topic%3Alearning-lab) &nbsp; _Interactive notebooks and hands-on tutorials._
+[<img src='https://img.shields.io/badge/24_repos-6e7781?style=flat-square' alt='24 repos'/>](https://github.com/SINGHL25?tab=repositories&q=topic%3Alearning-lab) &nbsp; _Interactive notebooks and hands-on tutorials._
 
 | # | Repository | What it does | Stack | ⭐ |
 |---|---|---|---|---|
@@ -167,7 +167,7 @@
 | 5 | **[NotebookLM_Playground](https://github.com/SINGHL25/NotebookLM_Playground)** | _(description coming)_ | `HTML` | 1 |
 | 6 | **[Precise_Farming_Playground](https://github.com/SINGHL25/Precise_Farming_Playground)** | _(description coming)_ | `Python` | 1 |
 
-<sub>🔎 **[Browse all 17 Learning Playgrounds repos →](https://github.com/SINGHL25?tab=repositories&q=topic%3Alearning-lab)**</sub>
+<sub>🔎 **[Browse all 24 Learning Playgrounds repos →](https://github.com/SINGHL25?tab=repositories&q=topic%3Alearning-lab)**</sub>
 
 ---
 
